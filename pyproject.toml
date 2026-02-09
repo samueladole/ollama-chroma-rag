@@ -3,7 +3,7 @@ name = "langchain-rag-ollama-chroma"
 version = "0.1.0"
 description = "A LangChain RAG (Retrieval-Augmented Generation) implementation using Ollama and Chroma."
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "chromadb>=1.5.0",
     "langchain>=1.2.9",
@@ -11,4 +11,5 @@ dependencies = [
     "langchain-ollama>=1.0.1",
     "pandas>=3.0.0",
     "streamlit>=1.19.0",
+    "altair<5",
 ]
