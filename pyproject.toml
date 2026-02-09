@@ -1,0 +1,13 @@
+[project]
+name = "langchain-rag-ollama-chroma"
+version = "0.1.0"
+description = "A LangChain RAG (Retrieval-Augmented Generation) implementation using Ollama and Chroma."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.0",
+    "langchain>=1.2.9",
+    "langchain-chroma>=1.1.0",
+    "langchain-ollama>=1.0.1",
+    "pandas>=3.0.0",
+]
