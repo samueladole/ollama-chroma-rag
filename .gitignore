@@ -11,6 +11,3 @@ wheels/
 
 # Chroma database
 chroma_db/
-
-# Documents
-documents/
